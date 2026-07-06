@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fb8ef5b70877c43b25e6346af79187, type: 3}
+  m_Name: Mision Viento
+  m_EditorClassIdentifier: Assembly-CSharp::MisionSO
+  misionId: MISION_VIENTO_01
+  misionName: Esencias del Aire Antiguo
+  description: "En esta zona flotan part\xEDculas brillantes llamadas \u201CEsencias
+    del Aire Antiguo\u201D.\r\nSolo los viajeros ligeros logran atraparlas.\r\n"
+  zone: 2
+  recompensaGemas: 1
+  itemIDObjetivo: ESENCIA_VIENTO
+  cantidadObjetivo: 5
+  puntoDeEntrega: {fileID: 958745142335686053, guid: 95aa05ec0ea0a884ab92946b57d2c7b4, type: 3}
+  dialogoCuandoAceptaMision: "\"Escucha al viento viajero.\r\nRecolecta 7 Esencias
+    del Aire Antiguo.\r\nEst\xE1n suspendidas entre los pilares celestes.\"\r\n"
+  dialogoCuandoEstaActiva: "\"El viento murmura\u2026 a\xFAn te faltan esencias.\""
+  dialogoCuandoCompletada: "\"El viento te reconoce.\r\nAcepta esta Gema de Viento,
+    s\xEDmbolo de armon\xEDa.\"\r\n"

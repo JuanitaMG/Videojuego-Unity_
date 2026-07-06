@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4fb8ef5b70877c43b25e6346af79187, type: 3}
+  m_Name: Mision Agua
+  m_EditorClassIdentifier: 
+  misionId: MISION_AGUA_01
+  misionName: Fragmentos de Hielo Puro
+  description: "En la zona del Agua, la energ\xEDa elemental se condensa en peque\xF1os
+    fragmentos de hielo que se forman cerca de los g\xE9iseres azules. Recolecta
+    los fragmentos para analizar su pureza."
+  zone: 0
+  recompensaGemas: 1
+  itemIDObjetivo: HIELO
+  cantidadObjetivo: 5
+  puntoDeEntrega: {fileID: 2602231374797837610, guid: 855c90c429434444fbe3ca2b5507ab04, type: 3}
+  dialogoCuandoAceptaMision: "\"Bienvenido viajero. El equilibrio del Agua est\xE1
+    inestable.\nNecesito que recolectes 5 Fragmentos de Hielo Puro.\nEstos se forman
+    cerca de los g\xE9iseres.\nVuelve cuando los tengas.\""
+  dialogoCuandoEstaActiva: "\"A\xFAn tienes trabajo por hacer.\nRe\xFAne los fragmentos
+    de hielo, el agua te observar\xE1.\""
+  dialogoCuandoCompletada: "\"Excelente trabajo.\nLa pureza del hielo es perfecta\u2026\nRecibe
+    esta Gema de Agua, guardar\xE1 tu camino.\" "
